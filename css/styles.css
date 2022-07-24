@@ -76,13 +76,26 @@ h3 {
   margin: 3rem 0;
 }
 
+/* Footer */
+.footer {
+  background-color: var(--primarioOscuro);
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer__texto {
+  font-family: var(--fuentePrincipal);
+  text-align: center;
+  font-size: 2.2rem;
+}
+
 /* Navegación */
 .navegacion {
   background-color: var(--primarioOscuro);
   padding: 1rem 0;
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 2rem; /* Antes esta separación se hacía en .navegacion__enlace con margin-right:2rem  */
 }
 
 .navegacion__enlace {
@@ -91,7 +104,29 @@ h3 {
   font-size: 3rem;
 }
 
+/* 
+También se agrega esta parte si se usa margin-right en vez de gap
+.navegacion__enlace:last-of-type {
+  margin-right: 0;
+} */
+
 .navegacion__enlace--activo, /* Bloque__elemento--modificador  */
 .navegacion__enlace:hover {
   color: var(--secundario);
+}
+
+/* Productos */
+.producto {
+}
+
+.producto__imagen {
+}
+
+.producto__informacion {
+}
+
+.producto__nombre {
+}
+
+.producto__precio {
 }
