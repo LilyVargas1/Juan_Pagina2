@@ -35,18 +35,29 @@
         <div class="camisa__contenido">
           <p>
             Curabitur dictum convallis ante, a sagittis risus bibendum blandit.
-            In sit amet risus tempus, volutpat nulla quis, posuere magna.
+            In sit amet risus tempus, volutpat nulla quis, posuere
+            magna.Curabitur a tempor nibh. Ut arcu quam, commodo sed
+            extincidunt, vestibulum ultrices justo.Aliquam ut aliquam orci.
           </p>
 
-          <form class="formulario" action="">
-            <select>
+          <form class="formulario">
+            <select class="formulario__campo">
               <option disabled selected>--Seleccionar Talla--</option>
               <option value="">Pequeña</option>
               <option value="">Mediana</option>
               <option value="">Grande</option>
             </select>
-            <input type="number" placeholder="Cantidad" min="1" />
-            <input type="submit" value="Agregar al Carrito" />
+            <input
+              class="formulario__campo"
+              type="number"
+              placeholder="Cantidad"
+              min="1"
+            />
+            <input
+              class="formulario__submit"
+              type="submit"
+              value="Agregar al Carrito"
+            />
           </form>
         </div>
       </div>
